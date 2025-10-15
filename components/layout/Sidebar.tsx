@@ -38,7 +38,7 @@ export default function Sidebar() {
         <div className="flex items-center space-x-2">
           <Sprout className="w-8 h-8" />
           <div>
-            <h1 className="text-xl font-bold">AgriConnect</h1>
+            <h1 className="text-xl font-bold">The Good Roll</h1>
             <p className="text-xs text-green-200">Procurement System</p>
           </div>
         </div>

@@ -28,7 +28,7 @@ const mockEmployees: Employee[] = [
     joiningDate: "2023-01-15",
     status: "Active",
     phone: "+233 24 567 8901",
-    email: "kwame.mensah@agriconnect.com",
+    email: "kwame.mensah@thegoodroll.com",
     reportingManager: "Production Manager",
   },
   {
@@ -41,7 +41,7 @@ const mockEmployees: Employee[] = [
     joiningDate: "2023-03-10",
     status: "Active",
     phone: "+233 20 123 4567",
-    email: "ama.sarpong@agriconnect.com",
+    email: "ama.sarpong@thegoodroll.com",
     reportingManager: "QC Manager",
   },
   {
@@ -54,7 +54,7 @@ const mockEmployees: Employee[] = [
     joiningDate: "2022-11-20",
     status: "Active",
     phone: "+233 27 890 1234",
-    email: "kofi.asante@agriconnect.com",
+    email: "kofi.asante@thegoodroll.com",
     reportingManager: "Warehouse Manager",
   },
   {
@@ -67,7 +67,7 @@ const mockEmployees: Employee[] = [
     joiningDate: "2023-06-01",
     status: "Probation",
     phone: "+233 26 456 7890",
-    email: "akosua.boateng@agriconnect.com",
+    email: "akosua.boateng@thegoodroll.com",
     reportingManager: "HR Manager",
   },
 ];

@@ -4,7 +4,7 @@ import Sidebar from "@/components/layout/Sidebar";
 import Header from "@/components/layout/Header";
 
 export const metadata: Metadata = {
-  title: "Farmer Procurement System",
+  title: "The Good Roll Procurement System",
   description: "Farmer Engagement & Raw Material Procurement Platform",
 };
 
