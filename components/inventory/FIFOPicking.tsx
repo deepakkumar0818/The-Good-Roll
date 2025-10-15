@@ -249,7 +249,7 @@ export default function FIFOPicking() {
             </div>
           </div>
 
-          {sortedStock.map((item, index) => {
+          {sortedStock.map((item) => {
             const expiryStatus = getExpiryIndicator(item.daysToExpiry);
             return (
               <div

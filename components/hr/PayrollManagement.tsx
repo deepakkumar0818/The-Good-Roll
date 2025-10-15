@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Wallet, DollarSign, FileText, CheckCircle, Clock } from "lucide-react";
+import { DollarSign, FileText, CheckCircle } from "lucide-react";
 
 export default function PayrollManagement() {
   const [selectedMonth, setSelectedMonth] = useState("2024-10");

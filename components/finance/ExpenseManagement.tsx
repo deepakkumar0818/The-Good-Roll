@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, CreditCard, CheckCircle, Clock } from "lucide-react";
+import { Plus, CreditCard, CheckCircle } from "lucide-react";
 
 interface Expense {
   id: string;

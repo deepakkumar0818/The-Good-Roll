@@ -1,10 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { FileText, Upload, CheckCircle, Clock, Users, Shield, Folder, PenTool } from "lucide-react";
+import { FileText, Upload, CheckCircle, Shield, Folder, PenTool } from "lucide-react";
 
 export default function DocumentManagement() {
-  const [selectedDocument, setSelectedDocument] = useState<string | null>(null);
 
   const documentStats = [
     { label: "Total Documents", value: "3,456", icon: FileText, color: "blue" },

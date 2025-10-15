@@ -1,6 +1,6 @@
 "use client";
 
-import { Globe, TrendingUp, Package, DollarSign, Users, RefreshCw, CheckCircle, AlertCircle } from "lucide-react";
+import { Globe, Package, DollarSign, Users, RefreshCw } from "lucide-react";
 
 export default function SpanishOperations() {
   const syncStatus = [

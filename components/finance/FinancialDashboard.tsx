@@ -1,6 +1,6 @@
 "use client";
 
-import { TrendingUp, TrendingDown, DollarSign, ShoppingCart, FileText, AlertCircle, CheckCircle } from "lucide-react";
+import { TrendingUp, DollarSign, AlertCircle, CheckCircle } from "lucide-react";
 
 export default function FinancialDashboard() {
   const currentMonth = "October 2024";

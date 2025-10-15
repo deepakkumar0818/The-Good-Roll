@@ -1,6 +1,6 @@
 "use client";
 
-import { DollarSign, TrendingUp, RefreshCw } from "lucide-react";
+import { DollarSign, RefreshCw } from "lucide-react";
 
 export default function MultiCurrency() {
   const currencies = [

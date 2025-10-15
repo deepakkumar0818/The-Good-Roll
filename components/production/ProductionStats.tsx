@@ -1,6 +1,6 @@
 "use client";
 
-import { Factory, Users, Package, TrendingUp, AlertTriangle, CheckCircle } from "lucide-react";
+import { Factory, Package, TrendingUp, AlertTriangle, CheckCircle } from "lucide-react";
 
 export default function ProductionStats() {
   const factories = [
@@ -27,7 +27,7 @@ export default function ProductionStats() {
         <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm font-medium text-blue-600">Today's Production</p>
+              <p className="text-sm font-medium text-blue-600">Today&apos;s Production</p>
               <p className="text-3xl font-bold text-blue-900 mt-2">{todayStats.totalProduction}</p>
               <p className="text-xs text-blue-600 mt-1">Bamboo Processing</p>
             </div>
@@ -90,7 +90,7 @@ export default function ProductionStats() {
         <div className="bg-white border border-gray-200 rounded-lg p-6">
           <div className="flex items-center mb-4">
             <TrendingUp className="w-5 h-5 text-green-600 mr-2" />
-            <h3 className="text-lg font-semibold text-gray-900">This Week's Performance</h3>
+            <h3 className="text-lg font-semibold text-gray-900">This Week&apos;s Performance</h3>
           </div>
           <div className="space-y-3">
             <div className="flex justify-between items-center py-2 border-b">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Truck, Ship, Plane, Package, MapPin, Clock, DollarSign, CheckCircle, XCircle, AlertCircle } from "lucide-react";
+import { Truck, Ship, Plane, Package, MapPin, Clock, CheckCircle, XCircle } from "lucide-react";
 
 interface Shipment {
   id: string;
@@ -138,7 +138,6 @@ const freightProviders: FreightProvider[] = [
 ];
 
 export default function FreightForwarding() {
-  const [selectedShipment, setSelectedShipment] = useState<string | null>(null);
   const [showBooking, setShowBooking] = useState(false);
   const [filterStatus, setFilterStatus] = useState("all");
 

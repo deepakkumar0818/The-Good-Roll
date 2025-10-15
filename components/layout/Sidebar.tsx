@@ -2,16 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { 
-  LayoutDashboard, 
-  Users, 
-  MapPin, 
-  DollarSign, 
+import {
+  LayoutDashboard,
+  Users,
+  MapPin,
+  DollarSign,
   Scale,
   Sprout,
   Factory,
   Warehouse,
-  Calculator,
   UserCircle,
   BarChart3,
   Zap

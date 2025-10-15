@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Container, Plus, Package, TrendingUp, AlertCircle, CheckCircle, Truck } from "lucide-react";
+import { Container, Plus, Package, TrendingUp, AlertCircle, Truck } from "lucide-react";
 
 interface ContainerData {
   id: string;

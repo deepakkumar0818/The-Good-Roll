@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Wrench, Calendar, AlertTriangle, CheckCircle, Clock } from "lucide-react";
+import { Plus, Wrench, AlertTriangle, CheckCircle, Clock } from "lucide-react";
 
 interface Maintenance {
   id: string;

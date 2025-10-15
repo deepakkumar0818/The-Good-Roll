@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { DollarSign, FileText, CreditCard, TrendingUp, Building, Receipt, PieChart, Wallet } from "lucide-react";
+import { DollarSign, FileText, CreditCard, Building, Receipt, PieChart, Wallet } from "lucide-react";
 import FinancialDashboard from "@/components/finance/FinancialDashboard";
 import PurchaseBills from "@/components/finance/PurchaseBills";
 import SalesInvoices from "@/components/finance/SalesInvoices";

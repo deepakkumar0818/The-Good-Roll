@@ -9,7 +9,7 @@ export default function ProcurementAnalytics() {
     { month: "Mar", avgCost: 1850, volume: 580, totalSpent: 1073000 },
     { month: "Apr", avgCost: 1825, volume: 610, totalSpent: 1113250 },
     { month: "May", avgCost: 1850, volume: 590, totalSpent: 1091500 },
-    { month: "Jun", avgCost: 1870, volume: 605, totalSpend: 1131350 },
+    { month: "Jun", avgCost: 1870, volume: 605, totalSpent: 1131350 },
   ];
 
   const regionPerformance = [

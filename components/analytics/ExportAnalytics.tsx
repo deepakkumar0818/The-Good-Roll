@@ -1,6 +1,6 @@
 "use client";
 
-import { Container, TrendingUp, DollarSign, Ship, AlertCircle } from "lucide-react";
+import { Container, TrendingUp, DollarSign, Ship } from "lucide-react";
 
 export default function ExportAnalytics() {
   const containerAnalytics = [

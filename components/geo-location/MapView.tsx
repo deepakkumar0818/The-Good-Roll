@@ -54,7 +54,7 @@ export default function MapView() {
             <p className="font-semibold text-gray-900">Kwame Mensah (2.3 km)</p>
           </div>
           <div>
-            <p className="text-gray-600">Today's Pickups</p>
+            <p className="text-gray-600">Today&apos;s Pickups</p>
             <p className="font-semibold text-gray-900">12 Scheduled</p>
           </div>
           <div>

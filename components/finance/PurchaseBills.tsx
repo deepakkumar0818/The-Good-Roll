@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, FileText, CheckCircle, Clock, XCircle, Download } from "lucide-react";
+import { Plus, FileText, CheckCircle, XCircle, Download } from "lucide-react";
 
 interface PurchaseBill {
   id: string;

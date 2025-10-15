@@ -239,7 +239,7 @@ export default function FarmerRegistrationForm({ onClose }: FarmerRegistrationFo
                   placeholder="e.g., 5.6037"
                   className="w-full px-3 py-2 bg-white text-gray-900 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-gray-400"
                 />
-                <p className="text-xs text-gray-500 mt-1">Enter the farm's GPS latitude coordinate</p>
+                <p className="text-xs text-gray-500 mt-1">Enter the farm&apos;s GPS latitude coordinate</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">GPS Longitude *</label>
@@ -252,7 +252,7 @@ export default function FarmerRegistrationForm({ onClose }: FarmerRegistrationFo
                   placeholder="e.g., -0.1870"
                   className="w-full px-3 py-2 bg-white text-gray-900 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-gray-400"
                 />
-                <p className="text-xs text-gray-500 mt-1">Enter the farm's GPS longitude coordinate</p>
+                <p className="text-xs text-gray-500 mt-1">Enter the farm&apos;s GPS longitude coordinate</p>
               </div>
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function FarmerRegistrationForm({ onClose }: FarmerRegistrationFo
               <input
                 type="text"
                 name="cropsGrown"
-                required={formData.farmingType !== "livestock"}
+                required
                 value={formData.cropsGrown}
                 onChange={handleChange}
                 placeholder="e.g., Bambusa vulgaris, Oxytenanthera abyssinica, Bambusa bambos"
@@ -362,7 +362,7 @@ export default function FarmerRegistrationForm({ onClose }: FarmerRegistrationFo
               <input
                 type="text"
                 name="livestockType"
-                required={formData.farmingType !== "crop"}
+                required
                 value={formData.livestockType}
                 onChange={handleChange}
                 placeholder="e.g., Cattle, Goats, Sheep, Poultry, Pigs"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MapPin, Navigation, Route, Plus } from "lucide-react";
+import { MapPin, Navigation, Route } from "lucide-react";
 import MapView from "@/components/geo-location/MapView";
 import LocationsList from "@/components/geo-location/LocationsList";
 

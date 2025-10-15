@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Building, CheckCircle, AlertCircle, Plus } from "lucide-react";
+import { CheckCircle, AlertCircle, Plus } from "lucide-react";
 
 export default function BankReconciliation() {
   const [selectedBank, setSelectedBank] = useState("GHS-ACC-001");

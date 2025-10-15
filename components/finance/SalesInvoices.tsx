@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Receipt, Send, CheckCircle, Clock } from "lucide-react";
+import { Plus, Receipt, Send, CheckCircle } from "lucide-react";
 
 interface Invoice {
   id: string;

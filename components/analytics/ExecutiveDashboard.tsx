@@ -1,6 +1,6 @@
 "use client";
 
-import { TrendingUp, TrendingDown, Users, Package, DollarSign, Factory, AlertCircle } from "lucide-react";
+import { TrendingUp, TrendingDown, Users, Package, DollarSign, AlertCircle } from "lucide-react";
 
 export default function ExecutiveDashboard() {
   const kpis = [
@@ -166,7 +166,7 @@ export default function ExecutiveDashboard() {
               <span className="text-sm font-bold text-gray-900">91%</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-sm text-gray-700">Today's Output</span>
+              <span className="text-sm text-gray-700">Today&apos;s Output</span>
               <span className="text-sm font-bold text-gray-900">45.2T</span>
             </div>
           </div>

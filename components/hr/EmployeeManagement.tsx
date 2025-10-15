@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Users, Search, Filter, UserCheck, UserX } from "lucide-react";
+import { Plus, Search } from "lucide-react";
 
 interface Employee {
   id: string;

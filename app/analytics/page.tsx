@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { BarChart3, TrendingUp, Package, DollarSign, Users } from "lucide-react";
+import { BarChart3, TrendingUp, Package, DollarSign } from "lucide-react";
 import ExecutiveDashboard from "@/components/analytics/ExecutiveDashboard";
 import ProcurementAnalytics from "@/components/analytics/ProcurementAnalytics";
 import ProductionAnalytics from "@/components/analytics/ProductionAnalytics";

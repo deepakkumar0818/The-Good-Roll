@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Clock, CheckCircle, XCircle, AlertCircle, Fingerprint } from "lucide-react";
+import { Clock, Fingerprint } from "lucide-react";
 
 export default function AttendanceTracking() {
   const [selectedDate, setSelectedDate] = useState("2024-10-09");

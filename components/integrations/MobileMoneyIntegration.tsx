@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Smartphone, CheckCircle, AlertCircle, Clock, DollarSign, Users, TrendingUp } from "lucide-react";
+import { Smartphone, CheckCircle, Clock, DollarSign, Users, TrendingUp } from "lucide-react";
 
 export default function MobileMoneyIntegration() {
   const [selectedProvider, setSelectedProvider] = useState<string | null>(null);
@@ -96,7 +96,7 @@ export default function MobileMoneyIntegration() {
           Ghana Mobile Money (MoMo) Payment System
         </h3>
         <p className="text-sm text-gray-700 mb-4">
-          Mobile Money is Ghana's leading digital payment platform, enabling instant cashless transactions via mobile phones. 
+          Mobile Money is Ghana&apos;s leading digital payment platform, enabling instant cashless transactions via mobile phones. 
           Over 80% of Ghanaians use MoMo for daily transactions, making it essential for farmer payments.
         </p>
         
@@ -112,7 +112,7 @@ export default function MobileMoneyIntegration() {
               </div>
             </div>
             <p className="text-xs text-gray-700">
-              Ghana's largest mobile money service with over 18 million active users. 
+              Ghana&apos;s largest mobile money service with over 18 million active users. 
               Dial *170# to access. Supports instant transfers, bill payments, and merchant transactions.
             </p>
           </div>
@@ -128,7 +128,7 @@ export default function MobileMoneyIntegration() {
               </div>
             </div>
             <p className="text-xs text-gray-700">
-              Vodafone's mobile money service with wide acceptance across Ghana. 
+              Vodafone&apos;s mobile money service with wide acceptance across Ghana. 
               Dial *110# to access. Known for reliable transactions and excellent customer service.
             </p>
           </div>

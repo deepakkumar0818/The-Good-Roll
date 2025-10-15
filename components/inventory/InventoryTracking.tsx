@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, QrCode, Search, Download, Upload, CheckCircle, XCircle, Clock } from "lucide-react";
+import { Plus, QrCode, Search, Download, Upload, CheckCircle, Clock } from "lucide-react";
 
 interface Movement {
   id: string;

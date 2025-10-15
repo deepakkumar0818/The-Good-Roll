@@ -1,6 +1,6 @@
 "use client";
 
-import { DollarSign, TrendingUp, TrendingDown, PieChart, AlertCircle } from "lucide-react";
+import { DollarSign, TrendingUp, TrendingDown, PieChart } from "lucide-react";
 
 export default function FinancialAnalytics() {
   const payrollMetrics = [

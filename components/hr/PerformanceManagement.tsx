@@ -1,10 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { Award, TrendingUp, BookOpen, Target, Star } from "lucide-react";
+import { Award, BookOpen, Target, Star } from "lucide-react";
 
 export default function PerformanceManagement() {
-  const [selectedEmployee, setSelectedEmployee] = useState("all");
 
   const performanceMetrics = [
     { metric: "Productivity", score: 85, target: 80, status: "Above Target" },

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Package, Search, QrCode, TrendingUp, AlertCircle } from "lucide-react";
+import { Package, Search, QrCode } from "lucide-react";
 
 interface Batch {
   id: string;

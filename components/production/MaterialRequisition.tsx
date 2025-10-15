@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Package, TrendingUp, Clock, CheckCircle, XCircle } from "lucide-react";
+import { Plus, Package, Clock, CheckCircle, XCircle } from "lucide-react";
 
 interface Requisition {
   id: string;

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Search, Filter, Download, Eye, Edit2 } from "lucide-react";
+import { Plus, Search, Filter, Download } from "lucide-react";
 import FarmerRegistrationForm from "@/components/farmers/FarmerRegistrationForm";
 import FarmersList from "@/components/farmers/FarmersList";
 

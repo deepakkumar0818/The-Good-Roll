@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Users, Clock, Calendar, Wallet, UserCircle, Award, Shield } from "lucide-react";
+import { Users, Clock, Calendar, Wallet, UserCircle, Award } from "lucide-react";
 import EmployeeManagement from "@/components/hr/EmployeeManagement";
 import AttendanceTracking from "@/components/hr/AttendanceTracking";
 import ShiftScheduling from "@/components/hr/ShiftScheduling";
