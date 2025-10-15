@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form Input Visibility Fix - Always Light Theme for Forms */
+input,
+textarea,
+select {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #d1d5db !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af !important;
+  opacity: 1 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+  outline: none !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1) !important;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  border-color: #9ca3af !important;
+}
+
+/* Ensure dark mode doesn't affect form inputs */
+@media (prefers-color-scheme: dark) {
+  input,
+  textarea,
+  select {
+    color: #111827 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #9ca3af !important;
+    opacity: 1 !important;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    color: #111827 !important;
+    background-color: #ffffff !important;
+    border-color: #10b981 !important;
+  }
+}
